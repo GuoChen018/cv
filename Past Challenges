@@ -1,0 +1,29 @@
+<!-- Nested Table -->
+<table border="1">
+  <tr>
+    <td>
+      <table>
+        <tr>
+          <td>UX Design</td>
+          <td>⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Teaching</td>
+          <td>⭐⭐⭐</td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <table>
+        <tr>
+          <td>Painting</td>
+          <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>3D Modeling</td>
+          <td>⭐⭐⭐</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>

@@ -1,0 +1,86 @@
+<!-- All the headings -->
+<h1>Heading level 1</h1>
+<h2>Heading level 2</h2>
+<h3>Heading level 3</h3>
+<h4>Heading level 4</h4>
+<h5>Heading level 5</h5>
+<h6>Heading level 6</h6>
+
+<!-- This is a line break - self-closing tag -->
+<br>
+
+<!-- This is a divider - self-closing tag -->
+<h2>Types of dividers</h2>
+<hr>
+<hr size="20">
+<hr size="20" noshade>
+<hr color=#FF0000>
+
+<p>This is a paragraph!</p>
+
+<!-- Bold text (better than <b>Bold tag</b>) -->
+<strong>Bold text</strong>
+<br>
+<!-- Italic text (better than <i>i tag</i>) -->
+<em>Italized text</em>
+
+<!-- Bullet point OR unordered list -->
+<ul>
+  <li>this is an unordered or bullet point list!</li>
+</ul>
+
+<!-- Numbered list OR ordered list -->
+<ol>
+  <li>this is an ordered/numbered list!</li>
+</ol>
+
+<!-- image -->
+<img src="" alt="">
+
+<!-- Hyperlink -->
+<a href="url">link name</a>
+
+<!-- Tables (NO COLUMNS!)
+<thead> -> <tr> -> <th>
+🟥 Table head -> table row -> table header cell
+<tbody> / <tfooter> -> <tr> -> <th>
+Table body/footer -> table row / table cell
+-->
+<h2>Table</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Angela</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>18</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Table footer</td>
+    </tr>
+  </tfoot>
+</table>
+
+<!-- Form -->
+<h2>Form</h2>
+<form class="" action="index.html" method="post">
+  <label>Label Name: </label>
+  <input type="text" name="" value=""><br>
+  <label>Password: </label>
+  <input type="password" name="" value="">
+  <input type="submit" name=""> <br><!-- Submit button -->
+  <label>Enter a date: </label>
+  <input type="date" name="" value=""> <br>
+  <input type="range" name="" value="">
+  <textarea name="yourMessage" rows="8" cols="80"></textarea>
+</form>
